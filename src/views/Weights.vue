@@ -1,19 +1,19 @@
 <template>
-   <Converter :conversionData="distances" title="Convertir Distancias" />
+   <Converter :conversionData="weights" title="Convertir Peso" />
 </template>
 
 <script>
 import Converter from '@/components/Converter.vue'
 
-import distances from '../data/distances'
+import weights from '../data/weights'
 
 export default {
-  name: 'Distances',
+  name: 'Weights',
   components: {
     Converter
   },
   data: () => ({
-    distances
+    weights
   })
 }
 </script>

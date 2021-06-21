@@ -11,6 +11,12 @@
             <router-link class="nav-link" to="/distancias">Convertir Distancias</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" to="/pesos">Convertir Peso</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/temperaturas">Convertir Temperatura</router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" to="/profesores">Profesores</router-link>
           </li>
         </ul>

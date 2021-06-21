@@ -1,19 +1,19 @@
 <template>
-   <Converter :conversionData="distances" title="Convertir Distancias" />
+   <Converter :conversionData="temperatures" title="Convertir Temperatura" />
 </template>
 
 <script>
 import Converter from '@/components/Converter.vue'
 
-import distances from '../data/distances'
+import temperatures from '../data/temperatures'
 
 export default {
-  name: 'Distances',
+  name: 'Temperatures',
   components: {
     Converter
   },
   data: () => ({
-    distances
+    temperatures
   })
 }
 </script>
